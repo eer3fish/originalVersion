@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  originalVersion
+//
+//  Created by fish on 15/12/11.
+//  Copyright © 2015年 fish. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Masonry.h"
+#import "UIColor+extension.h"
+#import "UIImage+extension.h"
+#import "UIView+Extension.h"
+#import "VNetwork.h"
+
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+#define SELF_WIDTH (self.frame.size.width)
+#define SELF_HEIGHT (self.frame.size.height)
+
+#define MARGIN_TEXTVIEW 15
+#define MARGIN_DEFAULT 15
+#define TEXT_HEIGHT 36
+
+#define LHBACKGROUNDCOLOR [UIColor colorWithRed:45.0/255.0 green:47.0/255.0 blue:56.0/255.0 alpha:1.0]
+#define LHTEXTCOLOR [UIColor colorWithRed:160.0/255.0 green:56.0/255.0 blue:59.0/255.0 alpha:1.0]
+
+#define RGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#endif /* PrefixHeader_pch */
